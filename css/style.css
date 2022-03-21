@@ -1,0 +1,161 @@
+/*  start first section  */
+.background-image
+{
+    background-image: url(../images/invitation\ \(2\).jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    
+}
+
+.home-content h2
+{
+   font-size: 60px;
+}
+
+.side-bar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #414658;
+    /* display: none; */
+    
+}
+
+.side-bar a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.side-bar a:hover
+{
+    color: #D62E33;
+}
+
+.side-bar i
+{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+
+.side-bar i:hover
+{
+    color: #D62E33;
+}
+
+.side-icon
+{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    color:white;
+    cursor: pointer;
+}
+
+.side-icon i
+{
+    font-size: 20px;
+}
+
+
+/* end first section */
+
+/* start second section  */
+
+.singers h3
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    margin: 0;
+    padding: 0;
+}
+
+.singers p
+{
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+#singer1 , #singer2 , #singer3 ,#singer4
+{
+    cursor: pointer;
+}
+#singer-text2 , #singer-text3 ,#singer-text4
+{
+    display: none;
+}
+
+/* end second section  */
+
+/* start third section  */
+.duration-bgimg 
+{
+    background-image: url(../images/invitation\ \(1\).jpg);
+    background-size: 100%;
+    background-position: center center;
+    height: 60vh;
+    
+}
+
+.boxes
+{
+ border: 1px solid white; 
+ color: white;
+ padding: 50px;
+}
+
+/* end third section  */
+
+/*  start footer */
+textarea
+{
+    height: 200px;
+}
+
+footer span
+{
+    color: #D62E33;
+}
+
+footer button
+{
+    background-color: #D62E33;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+footer .icons i 
+{
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+footer .icons i:hover
+{
+    background-color: #D62E33;
+}
+.alert
+{
+    display: none;
+}
+/* end footer */
